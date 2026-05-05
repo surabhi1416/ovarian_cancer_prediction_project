@@ -6,10 +6,11 @@ This project focuses on the early detection of ovarian cancer using a multi-moda
 The system integrates Machine Learning (ML) and Deep Learning (DL) models along with fusion techniques to improve prediction accuracy and reliability.
 
 Objectives
-Predict ovarian cancer using clinical and image data
-Improve accuracy using ensemble and fusion techniques
-Perform effective feature selection and preprocessing
-Develop a robust decision-support system for healthcare
+Predict ovarian cancer using clinical and image data.
+Improve accuracy using ensemble and fusion techniques.
+Perform effective feature selection and preprocessing.
+Develop a robust decision-support system for healthcare.
+
 Dataset
 1. Tabular Dataset (Clinical Data)
 Source: Public datasets (e.g., Kaggle)
@@ -22,6 +23,7 @@ Clear Cell
 Endometrioid
 Serous
 Mucinous
+
 Methodology
  1. Data Preprocessing (Tabular Data)
 Checked data shape, types, and null values
@@ -52,11 +54,13 @@ Rotation
 Zoom
 Horizontal & Vertical Flip
 Brightness Adjustment
+
 Dataset split:
 70% Training
 15% Validation
 15% Testing
- 5. Deep Learning Models
+
+ 6. Deep Learning Models
 VGG16
 VGG19
 Custom CNN (KKNet)
@@ -64,9 +68,11 @@ Configuration:
 Optimizer: Adam
 Learning Rate: 0.0001
 Loss: Categorical Crossentropy
+
 Best Result:
 KKNet Accuracy: 93%
- 6. Fusion Techniques (Multi-Modal Learning)
+
+ 8. Fusion Techniques (Multi-Modal Learning)
 To combine predictions from tabular and image models:
 Late Fusion
 Weighted Fusion
@@ -74,6 +80,7 @@ Voting Fusion
 Stacking Fusion
 Best Performance:
 Stacking Fusion (LR as meta-learner)
+
 Evaluation Metrics
 Accuracy
 Precision
